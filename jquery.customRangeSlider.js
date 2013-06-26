@@ -205,6 +205,10 @@
       return this;
     };
 
+    this.getCustomSlider = function () {
+      return customSlider;
+    }
+
     return this;
 
   }; // end customRangeSlider function
